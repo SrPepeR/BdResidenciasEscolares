@@ -1,0 +1,59 @@
+#encabezados{
+	background-color: #3FD09F;
+	color: #1C3073;
+	text-align: center;
+	font-family: Arial;
+  	color: #1C3073;
+  	font-size: 20px;
+}
+#tabla{ 
+	background-color: #B4FFE0;
+	color: #1C3073;
+	text-align: center;
+	border-color: black;
+	width: 100%;
+	border: 2px solid #000000;
+	border-spacing: 0px;
+	font-family: Arial;
+  	color: #1C3073;
+  	font-size: 12px;
+}
+#boton{
+	background: transparent;
+	color: #1C3073;
+	text-align: center;
+	font-family: Arial;
+  	color: #1C3073;
+  	font-size: 12px;
+  	border-radius: 10px;
+	text-shadow: 3px 2px 1px #9daef5;
+  	box-shadow: 6px 5px 24px #666666;
+  	padding: 10x;
+}
+#boton:hover {
+ 	background-color: #3FD09F;
+}
+#botonF{
+	background: transparent;
+	color: #1C3073;
+	text-align: center;
+	font-family: Arial;
+  	color: #1C3073;
+  	font-size: 12px;
+  	border-radius: 10px;
+	text-shadow: 3px 2px 1px #9daef5;
+  	box-shadow: 6px 5px 24px #666666;
+  	padding: 10x;
+}
+#botonF:hover{
+	background-color: #1C3073;
+	color: white;
+}
+#body{
+	background-color: #3FD09F;
+	color: #1C3073;
+	font-size: 20px;
+}
+#formulario{
+	font-size: 15px;
+}

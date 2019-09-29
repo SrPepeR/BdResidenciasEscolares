@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Residencias escolares</title><br>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/estiloVisualizacion.css">
+</head>
+<body id="body">
+	<h1>Residencias escolares</h1>
+	<h3>Kevin J. Rodríguez</h3>
+	<form action="insertarDatos.php" method="get" id="formulario">
+  	<p>Código de la universidad: 
+  		<SELECT NAME="codU" SIZE=1 onChange=""> 
+				<OPTION VALUE="La Laguna">La Laguna</OPTION>
+				<OPTION VALUE="Gran Canaria">Gran Canaria</OPTION>
+				<OPTION VALUE="Madrid">Madrid</OPTION>
+			</SELECT>
+		</p>
+  	<p>Precio mensual: <input name="precio" type="number" min="900" required value="900"></p>
+  	<p>Comedor:
+    	<input type="radio" name="comedor" value="Sí" required> Sí
+    	<input type="radio" name="comedor" value="No" checked> No
+    </p>
+  	<p>
+    	<input type="submit" value="Enviar" id="botonF">
+    	<input type="reset" value="Borrar" id="botonF">
+  	</p>
+  </form>
+  <form action="Visualizacion.php" method="get" id="formulario">
+    <input type="submit" value="Ver datos" id="botonF">
+  </form>
+</body>
+</html>
